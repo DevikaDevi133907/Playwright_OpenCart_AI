@@ -1,0 +1,206 @@
+- generic [active] [ref=f5e1]:
+  - navigation [ref=f5e2]:
+    - generic [ref=f5e3]:
+      - button "$ " [ref=f5e7] [cursor=pointer]:
+        - strong [ref=f5e8]: $
+        - generic [ref=f5e9]: 
+      - list [ref=f5e11]:
+        - listitem [ref=f5e12]:
+          - link "" [ref=f5e13] [cursor=pointer]:
+            - /url: https://awesomeqa.com/ui/index.php?route=information/contact
+        - listitem [ref=f5e15]:
+          - link "" [ref=f5e16] [cursor=pointer]:
+            - /url: https://awesomeqa.com/ui/index.php?route=account/account
+        - listitem [ref=f5e19]:
+          - link "" [ref=f5e20] [cursor=pointer]:
+            - /url: https://awesomeqa.com/ui/index.php?route=account/wishlist
+        - listitem [ref=f5e22]:
+          - link "" [ref=f5e23] [cursor=pointer]:
+            - /url: https://awesomeqa.com/ui/index.php?route=checkout/cart
+        - listitem [ref=f5e25]:
+          - link "" [ref=f5e26] [cursor=pointer]:
+            - /url: https://awesomeqa.com/ui/index.php?route=checkout/checkout
+  - banner [ref=f5e28]:
+    - generic [ref=f5e30]:
+      - link [ref=f5e33] [cursor=pointer]:
+        - /url: https://awesomeqa.com/ui/index.php?route=common/home
+        - img "TheTestingAcademy eCommerce" [ref=f5e34]
+      - generic [ref=f5e36]:
+        - textbox "Search" [ref=f5e37]
+        - button "" [ref=f5e39] [cursor=pointer]
+      - generic [ref=f5e42]:
+        - button " 1 item(s) - $602.00" [ref=f5e43] [cursor=pointer]:
+          - generic [ref=f5e44]: 
+          - text: 1 item(s) - $602.00
+        - text:   
+  - navigation [ref=f5e46]:
+    - generic: 
+    - list [ref=f5e48]:
+      - listitem [ref=f5e49]:
+        - link "Desktops" [ref=f5e50] [cursor=pointer]:
+          - /url: https://awesomeqa.com/ui/index.php?route=product/category&path=20
+      - listitem [ref=f5e51]:
+        - link "Laptops & Notebooks" [ref=f5e52] [cursor=pointer]:
+          - /url: https://awesomeqa.com/ui/index.php?route=product/category&path=18
+      - listitem [ref=f5e53]:
+        - link "Components" [ref=f5e54] [cursor=pointer]:
+          - /url: https://awesomeqa.com/ui/index.php?route=product/category&path=25
+      - listitem [ref=f5e55]:
+        - link "Tablets" [ref=f5e56] [cursor=pointer]:
+          - /url: https://awesomeqa.com/ui/index.php?route=product/category&path=57
+      - listitem [ref=f5e57]:
+        - link "Software" [ref=f5e58] [cursor=pointer]:
+          - /url: https://awesomeqa.com/ui/index.php?route=product/category&path=17
+      - listitem [ref=f5e59]:
+        - link "Phones & PDAs" [ref=f5e60] [cursor=pointer]:
+          - /url: https://awesomeqa.com/ui/index.php?route=product/category&path=24
+      - listitem [ref=f5e61]:
+        - link "Cameras" [ref=f5e62] [cursor=pointer]:
+          - /url: https://awesomeqa.com/ui/index.php?route=product/category&path=33
+      - listitem [ref=f5e63]:
+        - link "MP3 Players" [ref=f5e64] [cursor=pointer]:
+          - /url: https://awesomeqa.com/ui/index.php?route=product/category&path=34
+  - generic [ref=f5e65]:
+    - list [ref=f5e66]:
+      - listitem [ref=f5e67]:
+        - link "" [ref=f5e68] [cursor=pointer]:
+          - /url: https://awesomeqa.com/ui/index.php?route=common/home
+      - listitem [ref=f5e70]:
+        - link "Shopping Cart" [ref=f5e71] [cursor=pointer]:
+          - /url: https://awesomeqa.com/ui/index.php?route=checkout/cart
+    - generic [ref=f5e72]:
+      - generic [ref=f5e73]: 
+      - text: Products marked with *** are not available in the desired quantity or not in stock!
+      - button "×" [ref=f5e74] [cursor=pointer]
+    - generic [ref=f5e76]:
+      - heading "Shopping Cart (0.00kg)" [level=1] [ref=f5e77]
+      - table [ref=f5e80]:
+        - rowgroup [ref=f5e81]:
+          - row [ref=f5e82]:
+            - cell "Image" [ref=f5e83]
+            - cell "Product Name" [ref=f5e84]
+            - cell "Model" [ref=f5e85]
+            - cell "Quantity" [ref=f5e86]
+            - cell "Unit Price" [ref=f5e87]
+            - cell "Total" [ref=f5e88]
+        - rowgroup [ref=f5e89]:
+          - row [ref=f5e90]:
+            - cell [ref=f5e91]:
+              - link [ref=f5e92] [cursor=pointer]:
+                - /url: https://awesomeqa.com/ui/index.php?route=product/product&product_id=43
+                - img "MacBook" [ref=f5e93]
+            - cell [ref=f5e94]:
+              - link "MacBook" [ref=f5e95] [cursor=pointer]:
+                - /url: https://awesomeqa.com/ui/index.php?route=product/product&product_id=43
+              - text: "*** Reward Points: 600"
+            - cell "Product 16" [ref=f5e96]
+            - cell [ref=f5e97]:
+              - generic [ref=f5e98]:
+                - textbox [ref=f5e99]: "1"
+                - generic [ref=f5e100]:
+                  - button "" [ref=f5e101] [cursor=pointer]
+                  - button "" [ref=f5e103] [cursor=pointer]
+            - cell "$602.00" [ref=f5e105]
+            - cell "$602.00" [ref=f5e106]
+      - heading "What would you like to do next?" [level=2] [ref=f5e107]
+      - paragraph [ref=f5e108]: Choose if you have a discount code or reward points you want to use or would like to estimate your delivery cost.
+      - generic [ref=f5e109]:
+        - heading [level=4] [ref=f5e112]:
+          - link "Use Coupon Code " [ref=f5e113] [cursor=pointer]:
+            - /url: "#collapse-coupon"
+            - text: Use Coupon Code
+            - generic [ref=f5e114]: 
+        - heading [level=4] [ref=f5e117]:
+          - link "Use Gift Certificate " [ref=f5e118] [cursor=pointer]:
+            - /url: "#collapse-voucher"
+            - text: Use Gift Certificate
+            - generic [ref=f5e119]: 
+      - table [ref=f5e122]:
+        - rowgroup [ref=f5e123]:
+          - row [ref=f5e124]:
+            - cell [ref=f5e125]:
+              - strong [ref=f5e126]: "Sub-Total:"
+            - cell "$500.00" [ref=f5e127]
+          - row [ref=f5e128]:
+            - cell [ref=f5e129]:
+              - strong [ref=f5e130]: "Eco Tax (-2.00):"
+            - cell "$2.00" [ref=f5e131]
+          - row [ref=f5e132]:
+            - cell [ref=f5e133]:
+              - strong [ref=f5e134]: "VAT (20%):"
+            - cell "$100.00" [ref=f5e135]
+          - row [ref=f5e136]:
+            - cell [ref=f5e137]:
+              - strong [ref=f5e138]: "Total:"
+            - cell "$602.00" [ref=f5e139]
+      - generic [ref=f5e140]:
+        - link "Continue Shopping" [ref=f5e142] [cursor=pointer]:
+          - /url: https://awesomeqa.com/ui/index.php?route=common/home
+        - link "Checkout" [ref=f5e144] [cursor=pointer]:
+          - /url: https://awesomeqa.com/ui/index.php?route=checkout/checkout
+  - contentinfo [ref=f5e145]:
+    - generic [ref=f5e146]:
+      - generic [ref=f5e147]:
+        - generic [ref=f5e148]:
+          - heading "Information" [level=5] [ref=f5e149]
+          - list [ref=f5e150]:
+            - listitem [ref=f5e151]:
+              - link "About Us" [ref=f5e152] [cursor=pointer]:
+                - /url: https://awesomeqa.com/ui/index.php?route=information/information&information_id=4
+            - listitem [ref=f5e153]:
+              - link "Delivery Information" [ref=f5e154] [cursor=pointer]:
+                - /url: https://awesomeqa.com/ui/index.php?route=information/information&information_id=6
+            - listitem [ref=f5e155]:
+              - link "Privacy Policy" [ref=f5e156] [cursor=pointer]:
+                - /url: https://awesomeqa.com/ui/index.php?route=information/information&information_id=3
+            - listitem [ref=f5e157]:
+              - link "Terms & Conditions" [ref=f5e158] [cursor=pointer]:
+                - /url: https://awesomeqa.com/ui/index.php?route=information/information&information_id=5
+        - generic [ref=f5e159]:
+          - heading "Customer Service" [level=5] [ref=f5e160]
+          - list [ref=f5e161]:
+            - listitem [ref=f5e162]:
+              - link "Contact Us" [ref=f5e163] [cursor=pointer]:
+                - /url: https://awesomeqa.com/ui/index.php?route=information/contact
+            - listitem [ref=f5e164]:
+              - link "Returns" [ref=f5e165] [cursor=pointer]:
+                - /url: https://awesomeqa.com/ui/index.php?route=account/return/add
+            - listitem [ref=f5e166]:
+              - link "Site Map" [ref=f5e167] [cursor=pointer]:
+                - /url: https://awesomeqa.com/ui/index.php?route=information/sitemap
+        - generic [ref=f5e168]:
+          - heading "Extras" [level=5] [ref=f5e169]
+          - list [ref=f5e170]:
+            - listitem [ref=f5e171]:
+              - link "Brands" [ref=f5e172] [cursor=pointer]:
+                - /url: https://awesomeqa.com/ui/index.php?route=product/manufacturer
+            - listitem [ref=f5e173]:
+              - link "Gift Certificates" [ref=f5e174] [cursor=pointer]:
+                - /url: https://awesomeqa.com/ui/index.php?route=account/voucher
+            - listitem [ref=f5e175]:
+              - link "Affiliate" [ref=f5e176] [cursor=pointer]:
+                - /url: https://awesomeqa.com/ui/index.php?route=affiliate/login
+            - listitem [ref=f5e177]:
+              - link "Specials" [ref=f5e178] [cursor=pointer]:
+                - /url: https://awesomeqa.com/ui/index.php?route=product/special
+        - generic [ref=f5e179]:
+          - heading "My Account" [level=5] [ref=f5e180]
+          - list [ref=f5e181]:
+            - listitem [ref=f5e182]:
+              - link "My Account" [ref=f5e183] [cursor=pointer]:
+                - /url: https://awesomeqa.com/ui/index.php?route=account/account
+            - listitem [ref=f5e184]:
+              - link "Order History" [ref=f5e185] [cursor=pointer]:
+                - /url: https://awesomeqa.com/ui/index.php?route=account/order
+            - listitem [ref=f5e186]:
+              - link "Wish List" [ref=f5e187] [cursor=pointer]:
+                - /url: https://awesomeqa.com/ui/index.php?route=account/wishlist
+            - listitem [ref=f5e188]:
+              - link "Newsletter" [ref=f5e189] [cursor=pointer]:
+                - /url: https://awesomeqa.com/ui/index.php?route=account/newsletter
+      - separator [ref=f5e190]
+      - paragraph [ref=f5e191]:
+        - text: Powered By
+        - link "OpenCart" [ref=f5e192] [cursor=pointer]:
+          - /url: http://www.opencart.com
+        - text: TheTestingAcademy eCommerce © 2026

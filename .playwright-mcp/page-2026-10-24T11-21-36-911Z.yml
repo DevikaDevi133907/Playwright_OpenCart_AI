@@ -1,0 +1,195 @@
+- generic [active] [ref=f7e1]:
+  - navigation [ref=f7e2]:
+    - generic [ref=f7e3]:
+      - button "$ " [ref=f7e7] [cursor=pointer]:
+        - strong [ref=f7e8]: $
+        - generic [ref=f7e9]: 
+      - list [ref=f7e11]:
+        - listitem [ref=f7e12]:
+          - link "" [ref=f7e13] [cursor=pointer]:
+            - /url: https://awesomeqa.com/ui/index.php?route=information/contact
+        - listitem [ref=f7e15]:
+          - link "" [ref=f7e16] [cursor=pointer]:
+            - /url: https://awesomeqa.com/ui/index.php?route=account/account
+        - listitem [ref=f7e19]:
+          - link "" [ref=f7e20] [cursor=pointer]:
+            - /url: https://awesomeqa.com/ui/index.php?route=account/wishlist
+        - listitem [ref=f7e22]:
+          - link "" [ref=f7e23] [cursor=pointer]:
+            - /url: https://awesomeqa.com/ui/index.php?route=checkout/cart
+        - listitem [ref=f7e25]:
+          - link "" [ref=f7e26] [cursor=pointer]:
+            - /url: https://awesomeqa.com/ui/index.php?route=checkout/checkout
+  - banner [ref=f7e28]:
+    - generic [ref=f7e30]:
+      - link [ref=f7e33] [cursor=pointer]:
+        - /url: https://awesomeqa.com/ui/index.php?route=common/home
+        - img "TheTestingAcademy eCommerce" [ref=f7e34]
+      - generic [ref=f7e36]:
+        - textbox "Search" [ref=f7e37]
+        - button "" [ref=f7e39] [cursor=pointer]
+      - button " 0 item(s) - $0.00" [ref=f7e43] [cursor=pointer]:
+        - generic [ref=f7e44]: 
+        - text: 0 item(s) - $0.00
+  - navigation [ref=f7e46]:
+    - generic: 
+    - list [ref=f7e48]:
+      - listitem [ref=f7e49]:
+        - link "Desktops" [ref=f7e50] [cursor=pointer]:
+          - /url: https://awesomeqa.com/ui/index.php?route=product/category&path=20
+      - listitem [ref=f7e51]:
+        - link "Laptops & Notebooks" [ref=f7e52] [cursor=pointer]:
+          - /url: https://awesomeqa.com/ui/index.php?route=product/category&path=18
+      - listitem [ref=f7e53]:
+        - link "Components" [ref=f7e54] [cursor=pointer]:
+          - /url: https://awesomeqa.com/ui/index.php?route=product/category&path=25
+      - listitem [ref=f7e55]:
+        - link "Tablets" [ref=f7e56] [cursor=pointer]:
+          - /url: https://awesomeqa.com/ui/index.php?route=product/category&path=57
+      - listitem [ref=f7e57]:
+        - link "Software" [ref=f7e58] [cursor=pointer]:
+          - /url: https://awesomeqa.com/ui/index.php?route=product/category&path=17
+      - listitem [ref=f7e59]:
+        - link "Phones & PDAs" [ref=f7e60] [cursor=pointer]:
+          - /url: https://awesomeqa.com/ui/index.php?route=product/category&path=24
+      - listitem [ref=f7e61]:
+        - link "Cameras" [ref=f7e62] [cursor=pointer]:
+          - /url: https://awesomeqa.com/ui/index.php?route=product/category&path=33
+      - listitem [ref=f7e63]:
+        - link "MP3 Players" [ref=f7e64] [cursor=pointer]:
+          - /url: https://awesomeqa.com/ui/index.php?route=product/category&path=34
+  - generic [ref=f7e65]:
+    - list [ref=f7e66]:
+      - listitem [ref=f7e67]:
+        - link "" [ref=f7e68] [cursor=pointer]:
+          - /url: https://awesomeqa.com/ui/index.php?route=common/home
+      - listitem [ref=f7e70]:
+        - link "MacBook Air" [ref=f7e71] [cursor=pointer]:
+          - /url: https://awesomeqa.com/ui/index.php?route=product/product&product_id=44
+    - generic [ref=f7e74]:
+      - generic [ref=f7e75]:
+        - list [ref=f7e76]:
+          - listitem [ref=f7e77]:
+            - link [ref=f7e78] [cursor=pointer]:
+              - /url: https://awesomeqa.com/ui/image/cache/catalog/demo/macbook_air_1-500x500.jpg
+              - img "MacBook Air" [ref=f7e79]
+          - listitem [ref=f7e80]:
+            - link [ref=f7e81] [cursor=pointer]:
+              - /url: https://awesomeqa.com/ui/image/cache/catalog/demo/macbook_air_3-500x500.jpg
+              - img "MacBook Air" [ref=f7e82]
+          - listitem [ref=f7e83]:
+            - link [ref=f7e84] [cursor=pointer]:
+              - /url: https://awesomeqa.com/ui/image/cache/catalog/demo/macbook_air_2-500x500.jpg
+              - img "MacBook Air" [ref=f7e85]
+          - listitem [ref=f7e86]:
+            - link [ref=f7e87] [cursor=pointer]:
+              - /url: https://awesomeqa.com/ui/image/cache/catalog/demo/macbook_air_4-500x500.jpg
+              - img "MacBook Air" [ref=f7e88]
+        - list [ref=f7e89]:
+          - listitem [ref=f7e90]:
+            - link "Description" [ref=f7e91]:
+              - /url: "#tab-description"
+          - listitem [ref=f7e92]:
+            - link "Reviews (0)" [ref=f7e93] [cursor=pointer]:
+              - /url: "#tab-review"
+        - generic [ref=f7e94]:
+          - generic [ref=f7e95]: MacBook Air is ultrathin, ultraportable, and ultra unlike anything else. But you don’t lose inches and pounds overnight. It’s the result of rethinking conventions. Of multiple wireless innovations. And of breakthrough design. With MacBook Air, mobile computing suddenly has a new standard.
+          - text: "* * *"
+      - generic [ref=f7e97]:
+        - generic [ref=f7e98]:
+          - button "" [ref=f7e99] [cursor=pointer]
+          - button "" [ref=f7e101] [cursor=pointer]
+        - heading "MacBook Air" [level=1] [ref=f7e103]
+        - list [ref=f7e104]:
+          - listitem [ref=f7e105]:
+            - text: "Brand:"
+            - link "Apple" [ref=f7e106] [cursor=pointer]:
+              - /url: https://awesomeqa.com/ui/index.php?route=product/manufacturer/info&manufacturer_id=8
+          - listitem [ref=f7e107]: "Product Code: Product 17"
+          - listitem [ref=f7e108]: "Reward Points: 700"
+          - listitem [ref=f7e109]: "Availability: In Stock"
+        - list [ref=f7e110]:
+          - listitem [ref=f7e111]:
+            - heading "$1,202.00" [level=2] [ref=f7e112]
+          - listitem [ref=f7e113]: "Ex Tax: $1,000.00"
+        - generic [ref=f7e115]:
+          - generic [ref=f7e116]: Qty
+          - textbox "Qty" [ref=f7e117]: "1"
+          - button "Add to Cart" [ref=f7e118] [cursor=pointer]
+        - paragraph [ref=f7e120]:
+          - generic [ref=f7e121]: 
+          - generic [ref=f7e123]: 
+          - generic [ref=f7e125]: 
+          - generic [ref=f7e127]: 
+          - generic [ref=f7e129]: 
+          - link "0 reviews" [ref=f7e131] [cursor=pointer]:
+            - /url: ""
+          - text: /
+          - link "Write a review" [ref=f7e132] [cursor=pointer]:
+            - /url: ""
+  - contentinfo [ref=f7e133]:
+    - generic [ref=f7e134]:
+      - generic [ref=f7e135]:
+        - generic [ref=f7e136]:
+          - heading "Information" [level=5] [ref=f7e137]
+          - list [ref=f7e138]:
+            - listitem [ref=f7e139]:
+              - link "About Us" [ref=f7e140] [cursor=pointer]:
+                - /url: https://awesomeqa.com/ui/index.php?route=information/information&information_id=4
+            - listitem [ref=f7e141]:
+              - link "Delivery Information" [ref=f7e142] [cursor=pointer]:
+                - /url: https://awesomeqa.com/ui/index.php?route=information/information&information_id=6
+            - listitem [ref=f7e143]:
+              - link "Privacy Policy" [ref=f7e144] [cursor=pointer]:
+                - /url: https://awesomeqa.com/ui/index.php?route=information/information&information_id=3
+            - listitem [ref=f7e145]:
+              - link "Terms & Conditions" [ref=f7e146] [cursor=pointer]:
+                - /url: https://awesomeqa.com/ui/index.php?route=information/information&information_id=5
+        - generic [ref=f7e147]:
+          - heading "Customer Service" [level=5] [ref=f7e148]
+          - list [ref=f7e149]:
+            - listitem [ref=f7e150]:
+              - link "Contact Us" [ref=f7e151] [cursor=pointer]:
+                - /url: https://awesomeqa.com/ui/index.php?route=information/contact
+            - listitem [ref=f7e152]:
+              - link "Returns" [ref=f7e153] [cursor=pointer]:
+                - /url: https://awesomeqa.com/ui/index.php?route=account/return/add
+            - listitem [ref=f7e154]:
+              - link "Site Map" [ref=f7e155] [cursor=pointer]:
+                - /url: https://awesomeqa.com/ui/index.php?route=information/sitemap
+        - generic [ref=f7e156]:
+          - heading "Extras" [level=5] [ref=f7e157]
+          - list [ref=f7e158]:
+            - listitem [ref=f7e159]:
+              - link "Brands" [ref=f7e160] [cursor=pointer]:
+                - /url: https://awesomeqa.com/ui/index.php?route=product/manufacturer
+            - listitem [ref=f7e161]:
+              - link "Gift Certificates" [ref=f7e162] [cursor=pointer]:
+                - /url: https://awesomeqa.com/ui/index.php?route=account/voucher
+            - listitem [ref=f7e163]:
+              - link "Affiliate" [ref=f7e164] [cursor=pointer]:
+                - /url: https://awesomeqa.com/ui/index.php?route=affiliate/login
+            - listitem [ref=f7e165]:
+              - link "Specials" [ref=f7e166] [cursor=pointer]:
+                - /url: https://awesomeqa.com/ui/index.php?route=product/special
+        - generic [ref=f7e167]:
+          - heading "My Account" [level=5] [ref=f7e168]
+          - list [ref=f7e169]:
+            - listitem [ref=f7e170]:
+              - link "My Account" [ref=f7e171] [cursor=pointer]:
+                - /url: https://awesomeqa.com/ui/index.php?route=account/account
+            - listitem [ref=f7e172]:
+              - link "Order History" [ref=f7e173] [cursor=pointer]:
+                - /url: https://awesomeqa.com/ui/index.php?route=account/order
+            - listitem [ref=f7e174]:
+              - link "Wish List" [ref=f7e175] [cursor=pointer]:
+                - /url: https://awesomeqa.com/ui/index.php?route=account/wishlist
+            - listitem [ref=f7e176]:
+              - link "Newsletter" [ref=f7e177] [cursor=pointer]:
+                - /url: https://awesomeqa.com/ui/index.php?route=account/newsletter
+      - separator [ref=f7e178]
+      - paragraph [ref=f7e179]:
+        - text: Powered By
+        - link "OpenCart" [ref=f7e180] [cursor=pointer]:
+          - /url: http://www.opencart.com
+        - text: TheTestingAcademy eCommerce © 2026
