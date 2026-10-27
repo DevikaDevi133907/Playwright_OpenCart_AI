@@ -19,9 +19,9 @@ jobs:
       run: npx playwright install --with-deps
     - name: Run Playwright tests
       run: npx playwright test
-    - uses: actions/upload-artifact@v4
-      if: ${{ !cancelled() }}
-      with:
-        name: playwright-report
-        path: playwright-report/
-        retention-days: 30
+      env:
+        OPENCART_URL: ${{ secrets.OPENCART_URL }}
+        OPENCART_ADMIN_URL: ${{ secrets.OPENCART_ADMIN_URL }}
+        ADMIN_USERNAME: ${{ secrets.ADMIN_USERNAME }}
+        ADMIN_PASSWORD: ${{ secrets.ADMIN_PASSWORD }}
+        DB_NAME: ${{ secrets.DB_NAME }}
